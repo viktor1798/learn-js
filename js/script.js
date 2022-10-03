@@ -108,6 +108,22 @@ if(password==''||password == null){
 }else if( password !=="Я главный"){
     alert("Я тебя не знаю");
 }else if(password =="Я главный"){
-    alert("welcome");
+    
+}
+
+//Более правильный и улучшеный скрипт 
+if(user=="Админ"){
+    password=prompt("Пароль",'');
+    if (password =="Я главный"){
+        alert("welcome");
+    }else if(password==''||password == null){
+        alert('Отмена');
+    }else if(password !=="Я главный"){
+        alert("Я тебя не знаю");
+    } 
+}else if(user==''||user == null){
+    alert('Отмена');
+}else if( user !=="Админ"){
+    alert("Я тебя не знаю")
 }
 */
