@@ -127,3 +127,60 @@ if(user=="Админ"){
     alert("Я тебя не знаю")
 }
 */
+
+//2.13(4)
+
+//Мой код
+// for (let i = 1; i <= 10; ++i) { // выведет 0, затем 1, затем 2
+    
+//    if(i % 2 !==0) continue; 
+
+//     alert(i);
+// }
+// //Код с сайта
+// for (let i = 2; i <= 10; i++) {
+//     if (i % 2 == 0) {
+//       alert( i );
+//     }
+//   }
+
+
+//2.13(5)
+
+
+// let i=0;
+// while(i<3){
+//     alert(`number ${i++}!`);
+// }
+
+
+//2.13(6)
+//мой код
+// let num;
+
+// while(true){
+//     num = +prompt("Введите число","")
+
+//     if(num>100) break;
+// }
+// alert(num);
+
+// //код с сайта
+
+// do {
+//   num = prompt("Введите число больше 100?", 0);
+// } while (num <= 100 && num);
+
+//2.13(7)
+
+// let n = 10;
+
+// nextPrime:
+// for (let i = 2; i <= n; i++) { 
+
+//   for (let j = 2; j < i; j++) { 
+//     if (i % j == 0) continue nextPrime;
+//   }
+
+//   alert( i ); 
+// }
