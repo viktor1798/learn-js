@@ -199,19 +199,72 @@ if(user=="Админ"){
 
 //2.14(2)
 
-const number = +prompt('Введите число между 0 и 3', '');
+// const number = +prompt('Введите число между 0 и 3', '');
 
-switch(number){
-    case 0:
-        alert('Вы ввели число 0');
-    break;
+// switch(number){
+//     case 0:
+//         alert('Вы ввели число 0');
+//     break;
 
-    case 1:
-        alert('Вы ввели число 1');
-    break;
+//     case 1:
+//         alert('Вы ввели число 1');
+//     break;
 
-    case 2:
-    case 3:
-        alert('Вы ввели число 2, а может и 3');
-    break;
-}
+//     case 2:
+//     case 3:
+//         alert('Вы ввели число 2, а может и 3');
+//     break;
+// }
+
+
+//2.15(2)
+
+// function checkAge(age){
+//     return (age>18)?true:confirm('Родители разрешили?');
+// }
+// function checkAge(age){return true|| confirm('Родители разрешили?');}
+
+
+//2.15(3)
+
+// function min(a,b){
+//     if(a<b){
+//         return alert(a)
+//     }else return alert(b)
+// }
+
+// min(2, 5) 
+// min(3, -1)
+// min(1, 1) 
+
+//2.15(4)
+
+// function pow(x,n){
+//     let result = x;
+//     for(let i=1; i<n; i++){
+//         result *=x;
+//     }
+
+//     return alert(result);
+// }
+// pow(3, 2) 
+// pow(3, 3) 
+// pow(1, 100)
+
+// function pow(x,n){
+//     let result = x;
+//     for(let i=1; i<n; i++){
+//         result *=x;
+//     }
+
+//     return alert(result);
+// }
+
+// let x = +prompt('Введите число','');
+// let n = +prompt('Введите степень','');
+
+
+
+// if (n<1){
+//     alert(`Степень ${n} не поддерживается`)
+// }
