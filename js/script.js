@@ -272,12 +272,85 @@ if(user=="Админ"){
 
 //2.17(1)
 
-let ask = (question, yes, no)=>{
-    if (confirm(question)) yes()
-    else no();
-}
-ask(
-    "Вы согласны?",
-    ()=>{ alert("Вы согласились."); },
-    ()=>{ alert("Вы отменили выполнение."); }
-);
+// let ask = (question, yes, no)=>{
+//     if (confirm(question)) yes()
+//     else no();
+// }
+// ask(
+//     "Вы согласны?",
+//     ()=>{ alert("Вы согласились."); },
+//     ()=>{ alert("Вы отменили выполнение."); }
+// );
+
+
+
+//4.1(1)
+
+// let user = {
+// }
+
+// user.name = "Josh";
+// user.surname="Smith";
+// alert(user.name);
+// alert(user.surname);
+// user.name="Pete"
+// alert(user.name);
+// alert(user.surname);
+// delete user.name;
+// alert(user.name);
+// alert(user.surname);
+
+//4.1(2)
+
+// let schedule = {
+
+// }
+
+// function isEmpty (obj){
+//     for(let key in obj){
+//         return false;
+//     }
+//     return true;
+// }
+
+// alert(isEmpty(schedule));
+// schedule["8:30"]="get up";
+// alert(isEmpty(schedule));
+
+//4.1 (4)
+
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+// }
+// let sum=0;
+// for(let key in salaries){
+//     if(salaries === undefined){
+//         sum=0;
+//     }else{
+//         sum += salaries[key];
+//     }
+// }
+// alert(sum);
+
+
+//4.1(5)
+
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+// };
+// let double = 0;
+// function multiplyNumeric(obj){
+//     for(let key in obj){
+//         if(typeof obj[key] =='number'){
+//             obj[key]*=2;
+//             return obj[key];
+//         }
+        
+//     }
+// }
+// alert(multiplyNumeric(menu))
+
