@@ -354,3 +354,50 @@ if(user=="Админ"){
 // }
 // alert(multiplyNumeric(menu))
 
+
+//4.4 (2)
+
+// let calculator = {
+//     read(){
+//         this.a=+prompt('Pervoe chislo','0')
+//         this.b=+prompt('Vtoroe chislo','0')
+//     },
+//     sum(){
+//         return this.a+this.b;
+//     },
+//     min(){
+//         return this.a-this.b
+//     }
+// }
+
+// calculator.read();
+
+// alert(calculator.sum());
+// alert(calculator.min());
+
+
+// 4.4(3)
+
+// let ladder = {
+//     step: 0,
+//     up() {
+//       this.step++;
+//       return this;
+//     },
+//     down() {
+//       this.step--;
+//       return this;
+//     },
+//     showStep: function() { // показывает текущую ступеньку
+//       alert( this.step );
+//       return this;
+//     }
+//   };
+
+// // ladder.up();
+// // ladder.up();
+// // ladder.down();
+// // ladder.showStep(); // 1
+// // ladder.down();
+// // ladder.showStep();
+// ladder.up().up().down().showStep().down().showStep();
