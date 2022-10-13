@@ -400,4 +400,28 @@ if(user=="Админ"){
 // // ladder.showStep(); // 1
 // // ladder.down();
 // // ladder.showStep();
-// ladder.up().up().down().showStep().down().showStep();
+// ladder.up().up().down().showStep().down().showStep();э
+
+
+//4.5(2)
+
+
+function Calculator(){
+    this.read = function (){
+        this.a = +prompt('a?', 0);
+        this.b = +prompt('b?', 0);
+    };
+    this.sum = function(){
+       return this.a+this.b;
+    };
+    this.min = function(){
+        return this.a*this.b;
+    };
+}
+
+let calculator= new Calculator();
+
+calculator.read();
+
+alert(calculator.sum());
+alert(calculator.min());
